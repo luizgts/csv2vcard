@@ -2,7 +2,7 @@
 
 Se você tem uma planilha com diversos contatos (nomes, telefones) e deseja importá-los para sua lista de contatos no celular, este script feito em Python pode ajudá-lo.
 
-O script lê um arquivo com a extensão `csv` contendo duas colunas. A primeira coluna deve conter os nomes a segunda os telefones. Você pode facilmente gerar um arquivo `csv` através do excel ou qualquer outro programa de planilha eletrônica.
+O script lê um arquivo com a extensão `csv` contendo duas colunas. A primeira coluna deve conter os nomes e a segunda os telefones. Você pode facilmente gerar um arquivo `csv` através do excel ou qualquer outro programa de planilha eletrônica.
 
 # O que preciso para executar este script?
 
@@ -14,10 +14,10 @@ Os números dos telefones não devem conter caracteres como, parênteses `()`, b
 
 # Passos
 
-1 - Após criar o arquivo `cvs` renomeie para `contatos.cvs` e cole no mesmo local do arquivo `main.py`
+1. Após criar o arquivo `cvs` renomeie para `contatos.cvs` e cole no mesmo local do arquivo `main.py`
 
-2 - Execute o script: no windows execute o arquivo `main.py` dando um duplo clique. Para executar via linha de comando no Linux ou MacOS utilize `$ python3 main.py` ou `$ ./ main.py`.
+2. Execute o script: no windows execute o arquivo `main.py` dando um duplo clique. Para executar via linha de comando no Linux ou MacOS utilize `$ python3 main.py` ou `$ ./ main.py`.
 
-3 - Se não houver nenhum erro, um arquivo com a extensão `vcf` será criado na pasta vcard_export
+3. Se não houver nenhum erro, um arquivo com a extensão `vcf` será criado na pasta vcard_export
 
-4 - Envie o arquivo gerado para o seu celular e clique sobre o mesmo para instalar os novos contatos
+4. Envie o arquivo gerado para o seu celular e clique sobre o mesmo para instalar os novos contatos
